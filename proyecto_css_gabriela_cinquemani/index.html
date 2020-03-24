@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TuServicio</title>
+
+	<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+	<link href="css/estilos.css" rel="stylesheet" type="text/css" media="screen">
+	<link href="css/moviles.css" rel="stylesheet" type="text/css" media="screen and (orientation:portrait) and (min-width:1px) and (max-width:767px)">
+	<link href="css/tablet.css" rel="stylesheet" type="text/css" media="screen and (orientation:portrait) and (min-width:768px) and (max-width:991px)">
+	<link href="css/computadora.css" rel="stylesheet" type="text/css" media="screen and (orientation:landscape) and (min-width:992px) and (max-width:1200px)">
+  </head>
+  <body>
+
+<header>
+  <div class="container">
+	<div class="container"><h1> Tu Campamento</h1></div>
+    <ul class="nav nav-pills">
+	  <li class="nav-item"> <a class="nav-link active" href="#playa">Playa</a> </li>
+	  <li class="nav-item"> <a class="nav-link" href="#parque">Parque</a> </li>
+	  <li class="nav-item"> <a class="nav-link" href="#rio">Río</a> </li>
+	  </ul>
+ </header>
+<main>
+	<div class="principal">
+        <div class="imagen">
+          <img src="./images/inicial2.JPG" alt="">
+        </div>
+		<div class="contenido1">
+		<h2>Te llevamos a pasar tus mejores momentos...</h2>
+        <p>Escoge un lugar, la cantidad de tiempo y te llevamos</p>
+      	</div>
+	</div>
+
+	<div class="container">
+		<div id="playa" class="playa">
+				  <div class="contenido">
+					<div class="imagen-principal">
+					  <img src="./images/playa.JPG" alt="">
+					</div>
+					<div class="descripcion">
+					  <h2>Playa</h2>
+					  <p>Ve a la playa por una semana, te llevamos en bote a distintos lugares...</p>
+					</div>
+					<div class="imagen-secundaria">
+					  <img src="./images/bote.JPG" alt="">
+					</div>
+				  </div>
+        		</div>
+	  	<div id="parque" class="parque">
+			<div class="contenido">
+					<div class="imagen-principal">
+					  <img src="./images/parque3.JPG" alt="">
+					</div>
+					<div class="descripcion">
+					  <h2>Parque</h2>
+					  <p>Paseos de un día al parque y disfruta de la naturaleza</p>
+					</div>
+					<div class="imagen-secundaria">
+					  <img src="./images/parque4.JPG" alt="">
+					</div>
+		</div>
+		</div>
+		<div id="rio" class="rio">
+	  			<div class="contenido">
+					<div class="imagen-principal">
+					  <img src="./images/rio.JPG" alt="">
+					</div>
+					<div class="descripcion">
+					  <h2>Río</h2>
+					  <p>Quédate en un campamento y disfruta del río</p>
+					</div>
+					<div class="imagen-secundaria">
+					  <img src="./images/rio3.JPG" alt="">
+					</div>
+				  </div>
+		</div>
+	 </div>
+</main>
+<footer>
+  <div class="container">
+	<div class="informacion">
+      <h3>Dirección: </h3>
+      <address>
+        Edif 5 Av 1<br>
+        Provincia<br>
+        Código Postal 123123.
+      </address>
+      <div class="tel">
+        <h3>Teléfonos: </h3>
+        123-12312412
+      </div>
+    </div>
+    <div class="contacto">
+      <h3>Contacto</h3>
+      <form action="">
+        <p>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+        </p>
+        <p>
+          <label for="descripcion" >Descripción </label>
+          <textarea name="descripcion" id="" cols="20" rows=""></textarea>
+        </p>
+        <p>
+          <button>Enviar</button>
+        </p>
+      </form>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>

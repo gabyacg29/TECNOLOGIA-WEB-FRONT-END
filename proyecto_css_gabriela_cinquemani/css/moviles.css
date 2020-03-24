@@ -1,0 +1,72 @@
+@charset "utf-8";
+@media screen and (orientation:portrait) and (min-width:1px) and (max-width:767px) {
+	header h1 {
+		text-align: center;
+	}
+	header .container {
+		flex-direction: column;
+	}
+	header .container .container {
+		width: 100%;
+	}
+	header .container .nav {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		justify-content: center;
+	}
+	header .container .nav .nav-item{
+		padding: 2px;
+	}
+	header .container .nav.nav-pills {
+		position: relative;
+	}
+	.principal {
+		position: relative;
+		width: 100%;
+	}
+	.principal .imagen img {}
+	main .container {
+		background-color: gray;
+		height: auto;
+	}
+	.container .playa {
+		height: auto;
+	}
+	.container .parque {
+		height: auto;
+	}
+	.container .rio {
+		height: auto;
+	}
+	.contenido {
+		display: flex;
+		flex-flow: column nowrap;
+	}
+	.contenido .imagen-principal {
+		display: none;
+	}
+	.contenido .descripcion {
+		width: 95%;
+		height: auto;
+	}
+	.contenido .imagen-secundaria {
+		width: 95%;
+		height: auto;
+		align-items: center;
+	}
+	.contenido .imagen-secundaria img {
+		width: 95%;
+		align-items: center;
+	}
+	footer .container {
+		height: 500px;
+	}
+	.informacion {
+		width: 95%;
+	}
+	.contacto {
+		width: 95%;
+	}
+}

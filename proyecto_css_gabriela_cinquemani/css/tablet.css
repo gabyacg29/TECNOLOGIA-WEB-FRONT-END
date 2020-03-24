@@ -1,0 +1,65 @@
+@charset "utf-8";
+@media screen and (min-width:767px) and (max-width:991px) {
+	header h1 {
+		text-align: center;
+	}
+	li {
+		display: inline;
+	}
+	header nav {
+		color: #020202;
+	}
+	header nav ul {
+		margin-left: 10%;
+	}
+	a {
+		font-size: 20px;
+		color: black;
+	}
+	a:hover {
+		background-color: dimgray;
+	}
+	main .container {
+		background-color: gray;
+		height: auto;
+	}
+	.container .playa {
+		height: auto;
+	}
+	.container .parque {
+		height: auto;
+	}
+	.container .rio {
+		height: auto;
+	}
+	.contenido {
+		display: flex;
+		flex-flow: row nowrap;
+	}
+	.contenido .imagen-principal {
+		display: none !important;
+		width: 0px;
+	}
+	.contenido .imagen-principal img {
+		display: none !important;
+		width: 0px;
+	}
+	.contenido .descripcion {
+		width: 40%;
+		height: auto;
+	}
+	.contenido .imagen-secundaria {
+		width: 80%;
+		height: auto;
+	}
+	.contenido .imagen-secundaria img {
+		width: 80%;
+		
+	}
+	.informacion {
+		width: 35%;
+	}
+	.contacto {
+		width: 35%;
+	}
+}
